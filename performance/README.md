@@ -20,6 +20,14 @@ This document contains tips for performance tuning spark code on IBM's Spark as 
 
 ### Tips
 
+#### Reading/Writing from Bluemix Object Storage (Swift)
+
+Use the following library to ensure optimal performance: https://github.com/ibm-cds-labs/ibmos2spark
+
+#### Reading/Writing from Softlayer Account Object Storage (Swift)
+
+Use the following library to ensure optimal performance: https://github.com/ibm-cds-labs/ibmos2spark
+
 #### Reading from dashDB
 
 ##### Optimizing data reading for dashDB MPP
