@@ -1,8 +1,8 @@
-## Overview
+### Overview
 
 This document contains tips for performance tuning spark code on IBM's Spark as a Service and IBM's Data Science Experience.
 
-## Table of contents
+### Table of contents
 
 - [Performance Tuning Process](#Performance-Tuning-Process)
 - [Tips](#Tips)
@@ -11,18 +11,18 @@ This document contains tips for performance tuning spark code on IBM's Spark as 
   - [Memory Usage](#Memory-Usage)
 
 
-## Performance Tuning Process
+### Performance Tuning Process
 
  - Navigate to the Spark service in Bluemix
  - Click `Job History`
  - More info coming soon ...
 
 
-## Tips
+### Tips
 
-### Reading from dashDB
+#### Reading from dashDB
 
-#### Optimizing data reading for dashDB MPP
+##### Optimizing data reading for dashDB MPP
 
 Spark provides mechanisms to read data in parallel. When you already have a partitioned data backend such as a dashDB MPP instance, then it makes sense to read the individual data partitions in parallel into Spark. This saves a lot of reshuffling work that would otherwise have to be performed under the hood.
 
@@ -51,7 +51,7 @@ FROM TABLE(SYSPROC.DB_MEMBERS())
 
 Source: https://apsportal.ibm.com/blog/working-with-dashdb-in-data-science-experience/
 
-### Memory Usage
+#### Memory Usage
 
 If you are working on a filtered dataset and do not need to use the unfiltered dataset caching after applying the filter will result in less memory usage:
 
