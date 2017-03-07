@@ -1,26 +1,14 @@
-### Overview
+### Performance Tips - Overview
 
 This document contains tips for performance tuning spark code on IBM's Spark as a Service and IBM's Data Science Experience.
 
 ### Table of contents
 
-- [Performance Tuning Process](#performance-tuning-process)
-- [Tips](#Tips)
-  - [Reading/Writing from Bluemix Object Storage (Swift)](#readingwriting-from-bluemix-object-storage-swift)
-  - [Reading/Writing from Softlayer Account Object Storage (Swift)](#readingwriting-from-softlayer-account-object-storage-swift)
-  - [Reading from dashDB](#reading-from-dashdb)
-    - [Optimizing data reading for dashDB MPP](#optimizing-data-reading-for-dashdb-mpp)
-  - [Memory Usage](#memory-usage)
-
-
-### Performance Tuning Process
-
- - Navigate to the Spark service in Bluemix
- - Click `Job History`
- - More info coming soon ...
-
-
-### Tips
+ - [Reading/Writing from Bluemix Object Storage (Swift)](#readingwriting-from-bluemix-object-storage-swift)
+ - [Reading/Writing from Softlayer Account Object Storage (Swift)](#readingwriting-from-softlayer-account-object-storage-swift)
+ - [Reading from dashDB](#reading-from-dashdb)
+   - [Optimizing data reading for dashDB MPP](#optimizing-data-reading-for-dashdb-mpp)
+ - [Memory Usage](#memory-usage)
 
 #### Reading/Writing from Bluemix Object Storage (Swift)
 
