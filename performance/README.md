@@ -1,5 +1,7 @@
 ## Overview
 
+This document contains tips for performance tuning spark code on IBM's Spark as a Service and IBM's Data Science Experience.
+
 ## Table of contents
 
 - [Performance Tuning Process](#Performance-Tuning-Process)
