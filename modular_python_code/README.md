@@ -10,7 +10,7 @@ This document contains tips for modular Python code on IBM's Spark as a Service 
 
 ### Extracting common code into modules
 
-See this stackoverflow post for some options: http://stackoverflow.com/questions/41876516/how-to-supply-user-functions-modules-in-dsx/41890895#41890895
+When working with larger spark notebooks, you may want to extract some of the code into modules that you can include in your notebook:  See this stackoverflow post for some options: http://stackoverflow.com/questions/41876516/how-to-supply-user-functions-modules-in-dsx/41890895#41890895
 
 ### Installing pip modules only once
 
