@@ -6,6 +6,7 @@ This document contains tips for performance tuning spark code on IBM's Spark as 
 
 - [Performance Tuning Process](#Performance-Tuning-Process)
 - [Tips](#Tips)
+  - [Reading/Writing from Bluemix Object Storage (Swift)](#ReadingWriting-from-Bluemix-Object-Storage-Swift)
   - [Reading from dashDB](#Reading-from-dashDB)
     - [Optimizing data reading for dashDB MPP](#Optimizing-data-reading-for-dashDB-MPP)
   - [Memory Usage](#Memory-Usage)
