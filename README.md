@@ -8,8 +8,8 @@ This repository contains tips for working with Apache Spark as a Service and Dat
 
 [Performance Tips](./performance/README.md)
 
- - [General Tips](#general-tips)
-   - [Access the spark history server from notebook (python)](#access-the-spark-history-server-from-notebook-python)
+[General Tips](#general-tips)
+  - [Access the spark history server from notebook (python)](#access-the-spark-history-server-from-notebook-python)
  
 ### General Tips
 I may move this to its own section if it grows big enough
