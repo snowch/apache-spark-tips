@@ -10,6 +10,7 @@ This repository contains tips for working with Apache Spark as a Service and Dat
 
 [General Tips](#general-tips)
   - [Access the spark history server from notebook (python)](#access-the-spark-history-server-from-notebook-python)
+  - [Connect to BigInsights BigSQL](#connect-to-biginsights-bigsql-python)
  
 ### General Tips
 I may move this to its own section if it grows big enough
@@ -25,3 +26,6 @@ print("https://cdsx.ng.bluemix.net/data/analytics/{0}/monitoring/hsui".format(os
 
 Run the cell - this will print out a clickable url that takes you directly to the spark history server in Bluemix.
 
+#### Connect to BigInsights BigSQL (python)
+
+See example notebook: https://github.com/snowch/biginsight-examples/blob/master/misc/BigSQL.ipynb
